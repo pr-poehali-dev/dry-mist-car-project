@@ -45,7 +45,7 @@ export default function Index() {
             <div className="flex items-center gap-2">
               <Icon name="Car" className="text-primary" size={32} />
               <h1 className="text-2xl font-bold text-white font-roboto">
-                DryFog Auto
+                Дез-Саров
               </h1>
             </div>
             <nav className="hidden md:flex gap-8">
@@ -291,7 +291,7 @@ export default function Index() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Icon name="Car" className="text-primary" size={28} />
-                <h3 className="text-2xl font-bold font-roboto">DryFog Auto</h3>
+                <h3 className="text-2xl font-bold font-roboto">Дез-Саров</h3>
               </div>
               <p className="text-white/80">
                 Профессиональная обработка автомобилей сухим туманом. 
@@ -326,7 +326,7 @@ export default function Index() {
             </div>
           </div>
           <div className="border-t border-white/20 mt-8 pt-8 text-center text-white/60">
-            <p>&copy; 2024 DryFog Auto. Все права защищены.</p>
+            <p>&copy; 2024 Дез-Саров. Все права защищены.</p>
           </div>
         </div>
       </footer>
