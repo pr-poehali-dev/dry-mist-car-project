@@ -151,7 +151,7 @@ export default function Index() {
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-accent to-accent/90 text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="%23ffffff05" points="0,0 1000,300 1000,1000 0,700"/></svg>')] bg-cover"></div>
+        <div className="absolute inset-0 opacity-10"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl lg:text-5xl font-bold mb-6 font-roboto">
