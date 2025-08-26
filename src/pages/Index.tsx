@@ -149,6 +149,109 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Process Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl lg:text-5xl font-bold text-accent mb-6 font-roboto">
+              Процесс <span className="text-primary">работы</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Профессиональная обработка автомобиля сухим туманом состоит из 4 простых этапов
+            </p>
+          </div>
+
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {/* Step 1 */}
+              <div className="relative">
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto shadow-lg">
+                    <Icon name="FileText" className="text-white" size={32} />
+                  </div>
+                  <div className="absolute top-10 left-20 hidden lg:block">
+                    <div className="w-32 h-0.5 bg-primary/30 relative">
+                      <div className="absolute right-0 top-0 w-0 h-0 border-l-8 border-l-primary/30 border-t-4 border-t-transparent border-b-4 border-b-transparent transform translate-x-1"></div>
+                    </div>
+                  </div>
+                  <h3 className="text-2xl font-bold text-accent mb-3 font-roboto">
+                    Диагностика
+                  </h3>
+                  <p className="text-gray-600">
+                    Осматриваем автомобиль, выявляем проблемные зоны и источники запахов
+                  </p>
+                </div>
+              </div>
+
+              {/* Step 2 */}
+              <div className="relative">
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto shadow-lg">
+                    <Icon name="Settings" className="text-white" size={32} />
+                  </div>
+                  <div className="absolute top-10 left-20 hidden lg:block">
+                    <div className="w-32 h-0.5 bg-primary/30 relative">
+                      <div className="absolute right-0 top-0 w-0 h-0 border-l-8 border-l-primary/30 border-t-4 border-t-transparent border-b-4 border-b-transparent transform translate-x-1"></div>
+                    </div>
+                  </div>
+                  <h3 className="text-2xl font-bold text-accent mb-3 font-roboto">
+                    Подготовка
+                  </h3>
+                  <p className="text-gray-600">
+                    Готовим оборудование и подбираем оптимальный состав препаратов
+                  </p>
+                </div>
+              </div>
+
+              {/* Step 3 */}
+              <div className="relative">
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto shadow-lg">
+                    <Icon name="Spray" className="text-white" size={32} />
+                  </div>
+                  <div className="absolute top-10 left-20 hidden lg:block">
+                    <div className="w-32 h-0.5 bg-primary/30 relative">
+                      <div className="absolute right-0 top-0 w-0 h-0 border-l-8 border-l-primary/30 border-t-4 border-t-transparent border-b-4 border-b-transparent transform translate-x-1"></div>
+                    </div>
+                  </div>
+                  <h3 className="text-2xl font-bold text-accent mb-3 font-roboto">
+                    Обработка
+                  </h3>
+                  <p className="text-gray-600">
+                    Распыляем сухой туман, который проникает во все труднодоступные места
+                  </p>
+                </div>
+              </div>
+
+              {/* Step 4 */}
+              <div className="relative">
+                <div className="text-center">
+                  <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mb-6 mx-auto shadow-lg">
+                    <Icon name="CheckCircle" className="text-white" size={32} />
+                  </div>
+                  <h3 className="text-2xl font-bold text-accent mb-3 font-roboto">
+                    Контроль
+                  </h3>
+                  <p className="text-gray-600">
+                    Проверяем качество обработки и передаем автомобиль владельцу
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Timeline */}
+            <div className="mt-16 text-center">
+              <div className="inline-flex items-center gap-4 bg-secondary/50 rounded-full px-8 py-4">
+                <Icon name="Clock" className="text-primary" size={24} />
+                <span className="text-lg font-semibold text-accent">
+                  Общее время: 15-20 минут
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-accent to-accent/90 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10"></div>
