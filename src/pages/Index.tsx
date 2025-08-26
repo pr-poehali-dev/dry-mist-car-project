@@ -303,11 +303,24 @@ export default function Index() {
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <Icon name="Phone" size={18} />
-                  <span>+7 (XXX) XXX-XX-XX</span>
+                  <a href="tel:+79200359214" className="hover:text-primary transition-colors">
+                    +7 (920) 035-92-14
+                  </a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="MapPin" size={18} />
-                  <span>г. Москва, ул. Примерная, 123</span>
+                  <span>г. Саров, ул. Зернова, КПП 3</span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Icon name="Users" size={18} />
+                  <a 
+                    href="https://vk.com/dez_sarov" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-primary transition-colors"
+                  >
+                    Группа ВКонтакте
+                  </a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="Clock" size={18} />
